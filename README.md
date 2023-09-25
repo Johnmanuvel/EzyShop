@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ```
 
-The starter listens on port 8000 on address [0.0.0.0](0.0.0.0:8080). 
+   The starter listens on port 8000 on address [0.0.0.0](0.0.0.0:8080). 
 
 5. Hit the address/docs to Use the Swagger interface to explore the available API endpoints, make requests, and test the functionality of the API.
 
