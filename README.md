@@ -27,7 +27,7 @@ pip install virtualenv
 
 ```console
 
-pip install fastapi uvicorn pymongo
+pip install -r requirements.txt
 
 ```
 
