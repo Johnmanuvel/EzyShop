@@ -45,4 +45,30 @@ pip install -r requirements.txt
 
 5. Hit the address/docs to Use the Swagger interface to explore the available API endpoints, make requests, and test the functionality of the API.
 
+## Endpoints
+
+   Create a new product:
+   Endpoint: POST /products
+   Description: Creates a new product.
+
+   Get all products:
+   Endpoint: GET /products
+   Description: Retrieves a list of all products.
+
+   Create a new order:
+   Endpoint: POST /orders
+   Description: Creates a new order.
+
+   Get all orders:
+   Endpoint: GET /orders
+   Description: Retrieves a list of all orders with optional pagination parameters (limit and offset).
+
+   Find order by ID:
+   Endpoint: GET /orders/{id}
+   Description: Retrieves an order by its unique ID.
+
+   Update a product:
+   Endpoint: PUT /products/{id}
+   Description: Updates an existing product by its unique ID.
+
 
