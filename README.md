@@ -13,7 +13,11 @@ To use the application, follow the outlined steps:
 
 1. Clone this repository and create a virtual environment in it:
 
+```console
+
 pip install virtualenv
+
+```
 
 2. Install the modules listed in the `requirements.txt` file:
 
@@ -21,7 +25,11 @@ pip install virtualenv
 - **uvicorn**: A fast ASGI server for running web applications.
 - **PyMongo**: The official MongoDB driver for Python.
 
+```console
+
 pip install fastapi uvicorn pymongo
+
+```
 
 3. You also need to start your mongodb instance either locally, Create a `.env.dev` file. See the `.env.sample` for configurations. 
 
